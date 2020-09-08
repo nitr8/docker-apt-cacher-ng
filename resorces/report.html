@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=8">
+    <meta name="MSSmartTagsPreventParsing" content="true">
+    <title>APT Cacher NG Admin</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="data:image/png;base64,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" width="30" height="30" class="d-inline-block align-top" alt=""> APT Cacher NG Admin
+      </a>
+      <form class="form-inline my-2 my-lg-0">
+       <a href="/"><button type="button" class="btn btn-outline-success my-2 my-sm-0">Main</button></a>
+     </form>
+    </nav>
+    <div align="center">
+
+      <a name="stats"></a>
+      <div class="visarea maxwid" style="text-align:left">
+        <h2>Transfer statistics</h2>
+        <table class="table">
+          <tr>
+            <td class="coltitle"> </td>
+            <td class="coltitle">Since startup</td>
+            <td class="coltitle">Recent history</td>
+          </tr>
+          <tr>
+            <td class="coltitle" style="text-align:left">Data fetched:</td>
+            <td class="colcont" style="text-align:left"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4AoKFBQ7exd8OgAAAAxJREFUCNdjUDC/DwABsQE3XXYqIQAAAABJRU5ErkJggg==" width=${dataIn} height=11> ${dataInHuman}</td>
+            <td class="colcont" style="text-align:left"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4AoKFBQ7exd8OgAAAAxJREFUCNdjUDC/DwABsQE3XXYqIQAAAABJRU5ErkJggg==" width=${dataHistIn} height=11> ${dataHistInHuman}</td>
+          </tr>
+          <tr>
+            <td class="coltitle" style="text-align:left">Data served:</td>
+            <td class="colcont" style="text-align:left"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4AoKFBIl10Lm3wAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAADElEQVQI12MQVSgBAAD3AKpQhOaUAAAAAElFTkSuQmCC" width=${dataOut} height=11> ${dataOutHuman}</td>
+            <td class="colcont" style="text-align:left"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4AoKFBIl10Lm3wAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAADElEQVQI12MQVSgBAAD3AKpQhOaUAAAAAElFTkSuQmCC" width=${dataHistOut} height=11> ${dataHistOutHuman}</td>
+          </tr>
+        </table>
+        <h3>Log analysis</h3>
+        <table class="table">
+          <tr>
+            <td class="coltitle" rowspan=3>Period</td>
+          </tr>
+          <tr>
+            <td class="coltitle"><span>&nbsp;</span></td>
+            <td class="coltitle" colspan=3>Requests</td>
+            <td class="coltitle"><span>&nbsp;</span></td>
+            <td class="coltitle" colspan=3>Data</td>
+          </tr>
+          <tr bgcolor="white">
+            <td class="coltitle"><span>&nbsp;</span></td>
+            <td class="coltitle">Hits</td>
+            <td class="coltitle">Misses</td>
+            <td class="coltitle">Total</td>
+            <td class="coltitle"><span>&nbsp;</span></td>
+            <td class="coltitle">Hits</td>
+            <td class="coltitle">Misses</td>
+            <td class="coltitle">Total</td>
+          </tr>
+            ${statsRow}
+        </table>
+        <br/>
+        <div class="alert alert-primary" role="alert">
+          Note: data table is created based on the current log file. Deviation from real request count is possible due to previous log file optimization.
+        </div>
+        <form action="#bottom">
+        <h2>Shared processing options</h2>
+        <p>
+          Temporary options for the general behavour and index update configuration can set in this user interface. They are only relevant to expiration and import features triggered below.
+        </p>
+        <p>
+          <input type="checkbox" name="abortOnErrors" value="aOe" ${aOeDefaultChecked}> Stop the work on errors during index update step<br/>
+          <input type="checkbox" name="beVerbose" value="bV"> More verbosity<br/>
+          <input type="checkbox" name="forceRedownload" value="fRd"> Force the download of index files (even having fresh ones)<br/>
+          <input type="checkbox" name="jsMode" value="js" checked> Auto-scrolling (requires JavaScript)</br>
+          <input type="checkbox" name="skipIxUp" value="si"> Don't update index files (DANGEROUS for expiration tasks!)</br>
+        </p>
+        <h2>Expiration</h2>
+        <p>
+          Expiration mechanism is needed to delete files from the local cache when
+         they are removed on the servers, e.g. when the software versions of the
+         package is updated and the package files are replaced. This is rarely
+         needed when Stable system distribution is used by the clients, but use of
+         unstable branches with high fluctuation requires to clean up the local
+         cache from time to time. ACNG includes helper code to identify
+         unreferenced files automatically and optionally check the cache and
+         verify data against file information in the index files, where
+         available.
+        </p>
+        <h3>Scan and semi-automatic expiration</h3>
+        <p>
+            The default method does update the index files, check the
+            files present in the cache and optionally delete them. The
+            checks consist of file name comparison and optionally file
+            contents verification or directory location comparison.
+            Files that are not listed in any index file or have
+            incorrect contents are marked for removal in one of the
+            later sessions, or can be removed by direct user action
+            triggered with the controls below.
+        </p>
+        <input type="checkbox" name="ignoreTradeOff" value="iTO"> Ignore the threshold that aborts early when there is probably not much to do</br>
+        <input type="checkbox" name="skipHeadChecks" value="sHC"> Skip header checks (faster, not detecting bad metadata)</br>
+        <input type="checkbox" name="byPath" value="bP" id="idBP" onChange="endis();"> <i>Validate by file name AND file directory (use with care),</i></br>
+        <input type="checkbox" name="byChecksum" value="bS" id="idBS" onChange="endis();"> <i>then validate file contents through checksum (<font color=red>SLOW</font>), also detecting corrupt files,</i></br>
+        <input type="checkbox" name="truncNow" value="tN" id="idTN"> <i>then truncate damaged files immediately.</i></br>
+        <input type="checkbox" name="incomAsDamaged" value="iad" id="idIAD"> <i>Treat incomplete files as damaged.</i></br>
+        <input type="checkbox" name="purgeNow" value="pN"> Purge unreferenced files immediately after scan</br>
+
+<script type="text/javascript">
+document.getElementById("idBS").disabled="disabled";
+document.getElementById("idTN").disabled="disabled";
+document.getElementById("idIAD").disabled="disabled";
+document.getElementById("idBS").checked=false;
+document.getElementById("idTN").checked=false;
+document.getElementById("idIAD").checked=false;
+function endis()
+{
+   endisCb('idBP', 'idBS');
+   endisCb('idBS', 'idTN');
+   endisCb('idBS', 'idIAD');
+}
+function endisCb(idCon, idWhat)
+{
+   var pCon=document.getElementById(idCon);
+   var pWhat=document.getElementById(idWhat);
+   if(pCon.checked)
+      pWhat.disabled="";
+   else
+   {
+      pWhat.checked=false;
+      pWhat.disabled="disabled";
+   }
+}
+</script>
+
+        <center><input class="btn btn-info btn-sm" type="submit" name="doExpire" value="Start Scan and/or Expiration"></center>
+
+        <h3>Direct actions</h3>
+        <p>
+          <input class="btn btn-primary btn-sm" type="submit" name="justShow" value="Show unreferenced">
+          <input class="btn btn-primary btn-sm" type="submit" name="justRemove" value="Delete unreferenced">
+          <input class="btn btn-primary btn-sm" type="submit" name="justShowDamaged" value="Show damaged">
+          <input class="btn btn-primary btn-sm" type="submit" name="justRemoveDamaged" value="Delete damaged">
+          <input class="btn btn-primary btn-sm" type="submit" name="justTruncDamaged" value="Truncate damaged">
+        </p>
+
+        <h2>Import</h2>
+        <p>Importing package files from foreign sources works in following case:</p>
+        <p>
+            Files can be assigned to <b>known</b> download locations. The
+            locations become known when they are found in index files. However,
+            this index files must exist in the package cache, therefore at least
+            one client needs to download them, i.e. running "<b>apt-get update</b>" on a client system
+            which is configured for use with ACNG. See ACNG manual for more details.
+        </p>
+        <p>
+         When all conditions are met <!--for one of the described ways,--> put your files into
+         the "_import" directory, e.g. <i>/var/cache/apt-cacher-ng/_import/</i>.
+         Subdirectories and symlinks are ok. Then run import.
+        </p>
+        <center><input class="btn btn-info btn-sm" type="submit" name="doImport" value="Start Import"></center>
+
+        <h2>Guided precaching</h2>
+        <p>
+            APT Cacher NG supports a massive download of package files
+            referenced in a specified set of index files. This is configured
+            with the <i>PrecacheFor</i> configuration option (see config
+            examples and manual for details).
+        </p>
+        <p>
+            In special cases this feature can be used to create a local
+            partial mirror where the cache internal structure of packages
+            mostly represents the contents of the remote package archive and
+            includes everything apt might want to download.
+        <p>
+        <input type="checkbox" name="calcSize" value="cs" checked="checked"> Calculate and display download size<br/>
+        <input type="checkbox" name="doDownload" value="dd"> Download package files<br/>
+        <input type="checkbox" name="asNeeded" value="an" checked="checked"> Restrict to packages related to previously cached files<br/>
+        <center><input class="btn btn-info btn-sm" type="submit" name="doMirror" value="Start precaching"></center>
+
+        </form>
+
+        <h2>Pattern Tracing</h2>
+        <p>
+          This section is useful to identify new file name patterns which might be needed to configuration in order to handle new file types correctly.
+          <a name="trace"></a> Current value of pattern extensions:
+        </p>
+        <pre>SPfilePatternEx: ${cfg:SPfilePatternEx}
+VfilePatternEx: ${cfg:VfilePatternEx}
+PfilePatternEx: ${cfg:PfilePatternEx}</pre>
+        <form action="#trace" method="get">
+          <span style="white-space:nowrap;">
+            Current mode:
+            <font style="display:${:/cfg:patrace/inline/none};white-space:nowrap;">
+              <font style="color:red;font-weight:bold;white-space:nowrap;">Active</font>
+              (watching download activity)
+            </font>
+            <font style="display:${:/cfg:patrace/none/inline};white-space:nowrap;">not tracing</font>
+          </span>
+          <p>
+            <input class="btn btn-primary btn-sm" type="submit" name="doTraceStart" value="Start Tracing" ${:/cfg:patrace/disabled/}>
+            <input class="btn btn-primary btn-sm" type="submit" name="doTraceStop" value="Stop Tracing" ${:/cfg:patrace//disabled}>
+            <input class="btn btn-primary btn-sm" type="submit" name="doTraceClear" value="Clear Trace Data">
+          </p>
+
+          <center><input class="btn btn-info btn-sm" type="submit" name="doTraceRefresh${random}" value="Refresh"></center>
+          <p><pre><br>${curPatTraceCol}</pre></p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
