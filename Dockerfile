@@ -7,7 +7,7 @@ ENV APT_CACHER_NG_CACHE_DIR=/var/cache/apt-cacher-ng \
 COPY entry_point.sh /sbin/entry_point.sh
 
 RUN apt-get update \
-# && apt-get upgrade -y \
+ && apt-get upgrade -y \
  && DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y \
       apt-cacher-ng ca-certificates wget \
  && sed 's/# ForeGround: 0/ForeGround: 1/' -i /etc/apt-cacher-ng/acng.conf \
